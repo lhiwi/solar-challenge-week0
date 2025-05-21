@@ -20,6 +20,7 @@ solar-challenge-week0/
 ├── .github/                    # CI pipeline definitions
 │   └── workflows/
 │       └── ci.yml
+<<<<<<< Updated upstream
 ├── .gitignore                  # Ignored files (data/, venv/, etc.)
 ├── requirements.txt            # Pinned Python dependencies
 └── README.md                   # Project overview and documentation
@@ -47,4 +48,25 @@ To set up this project locally:
    ```bash
    pip install -r requirements.txt  inside a virtual environment.
    ```
+<<<<<<< HEAD
+=======
+├── notebooks/
+│   ├── __init__.py
+│   └── README.md
+├── scripts/
+│   ├── __init__.py
+│   └── README.md
+├── src/
+│   └── main.py
+├── tests/
+│   └── __init__.py
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> 22f2e2eadbe5cb48387901779521a536efe1f075
