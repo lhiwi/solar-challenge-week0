@@ -1,9 +1,24 @@
-# Python virtual environment
+# Python virtual environments
 venv/
+.venv/  # Common alternative name
+env/
+*.pyc
+__pycache__/  # Compiled Python files
 
 # Data files
 data/
+*.csv  # Covers all CSV files (ensure you don't have tracked CSVs elsewhere)
 
-# CSVs and notebook checkpoints
-*.csv
+# Jupyter/IPython
 .ipynb_checkpoints/
+*.ipynb  # Only include this if you want to ignore ALL notebooks (likely not!)
+**/.ipynb_checkpoints/  # Recursive checkpoints (covers subfolders)
+
+# IDE/Editor files
+.vscode/  # VSCode settings
+.idea/  # PyCharm/IntelliJ
+.DS_Store  # macOS metadata
+*.swp  # Vim/Neovim swap files
+
+# System/OS files
+Thumbs.db  # Windows thumbnail cache
