@@ -48,6 +48,7 @@ To set up this project locally:
    ```bash
    pip install -r requirements.txt  inside a virtual environment.
    ```
+<<<<<<< HEAD
 =======
 ├── notebooks/
 │   ├── __init__.py
@@ -67,3 +68,5 @@ To set up this project locally:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> 22f2e2eadbe5cb48387901779521a536efe1f075
