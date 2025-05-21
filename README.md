@@ -48,19 +48,3 @@ To set up this project locally:
    ```bash
    pip install -r requirements.txt  inside a virtual environment.
    ```
-=======
-├── notebooks/
-│   ├── __init__.py
-│   └── README.md
-├── scripts/
-│   ├── __init__.py
-│   └── README.md
-├── src/
-│   └── main.py
-├── tests/
-│   └── __init__.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
->>>>>>> Stashed changes
