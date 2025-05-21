@@ -47,4 +47,3 @@ To set up this project locally:
    ```bash
    pip install -r requirements.txt  inside a virtual environment.
    ```
-```
