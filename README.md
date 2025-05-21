@@ -63,4 +63,7 @@ To set up this project locally:
 ├── .gitignore
 └── README.md
 ```
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
