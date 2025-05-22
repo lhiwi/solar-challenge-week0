@@ -6,12 +6,9 @@ Welcome to the solar data discovery project! This repository contains code and r
 
 ```
 solar-challenge-week0/
-├── data/                       # Raw and cleaned CSV files (not tracked)
-│   ├── benin-malanville.csv
-│   ├── togo-dapaong_qc.csv
-│   ├── sierraleone-bumbuna.csv
-│   ├── benin_clean.csv
-│   └── ...
+├── app/                   
+│   ├── main.py           # Entry point for the Streamlit dashboard
+│   └── components        # Reusable UI components  └── ...
 ├── notebooks/                  # Exploratory notebooks by country and comparison
 │   ├── benin_eda.ipynb
 │   ├── sierra_leone_eda.ipynb
@@ -20,7 +17,6 @@ solar-challenge-week0/
 ├── .github/                    # CI pipeline definitions
 │   └── workflows/
 │       └── ci.yml
-<<<<<<< Updated upstream
 ├── .gitignore                  # Ignored files (data/, venv/, etc.)
 ├── requirements.txt            # Pinned Python dependencies
 └── README.md                   # Project overview and documentation
@@ -48,25 +44,23 @@ To set up this project locally:
    ```bash
    pip install -r requirements.txt  inside a virtual environment.
    ```
-<<<<<<< HEAD
-=======
-├── notebooks/
-│   ├── __init__.py
-│   └── README.md
-├── scripts/
-│   ├── __init__.py
-│   └── README.md
-├── src/
-│   └── main.py
-├── tests/
-│   └── __init__.py
-├── requirements.txt
-├── .gitignore
-└── README.md
 ```
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> 22f2e2eadbe5cb48387901779521a536efe1f075
+```
+
+## Usage
+
+Launch the Streamlit dashboard:
+```bash
+streamlit run app/main.py
+```
+
+```
+
+## Features
+- Real-time data ingestion and EDA panels
+- Modular Python components for easy extension
+- Automated CI/CD pipelines via GitHub Actions
+- Interactive visualizations with Plotly and Matplotlib
+- Comprehensive test suite with pytest
+
+```
