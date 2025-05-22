@@ -2,7 +2,7 @@
 
 Welcome to the solar data discovery project! This repository contains code and reports for Week 0 of the 10 Academy Solar Challenge. Throughout this project, we profile, clean, and analyze one year of minute-resolution solar and meteorological data from three West African sites: Benin (Malanville), Sierra Leone (Bumbuna), and Togo (Dapaong).
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 solar-challenge-week0/
@@ -22,7 +22,7 @@ solar-challenge-week0/
 └── README.md                   # Project overview and documentation
 ```
 
-## 🔧 Installation
+##  Installation
 To set up this project locally:
 
 1. **Clone the repository**
